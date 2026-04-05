@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "AnalysisHistory": {
+      "title": "Analysis History",
+      "description": "Stores previous resume analysis results for a user.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "number" },
+        "resume": { "type": "string" },
+        "jobDescription": { "type": "string" },
+        "result": { "type": "object" },
+        "userId": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "resume", "jobDescription", "result", "userId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/history/{historyId}": {
+      "schema": "AnalysisHistory",
+      "description": "User-specific analysis history collection."
+    }
+  }
+}
