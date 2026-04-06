@@ -69,3 +69,4 @@ PrecisionHire AI is a powerful, production-grade recruitment tool designed to st
 5. **Export:** Download the results as a PDF for sharing with your team.
 
 
+MIND THAT, FOR THIS APPLICATION TO RUN ON LOCAL HOST YOU NEED TO CREATE YOUR OWN GEMINI API KEY .
