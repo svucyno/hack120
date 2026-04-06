@@ -68,10 +68,4 @@ PrecisionHire AI is a powerful, production-grade recruitment tool designed to st
    - For multiple resumes, check the leaderboard to see the top-ranked candidates.
 5. **Export:** Download the results as a PDF for sharing with your team.
 
-## 🛡️ License
 
-This project is licensed under the MIT License.
-
----
-
-*Built with ❤️ by the PrecisionHire AI Team.*
